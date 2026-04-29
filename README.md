@@ -22,7 +22,7 @@
 
 # Como Rodar o Projeto:
 ## Pré-requisitos:
-- Java 17
+- Java 17+
 - Maven 3.8
 
 
@@ -57,13 +57,6 @@
 ---
 A aplicação estará disponível em: `http://localhost:8080`
 ---
-## URLs Disponíveis
-
-| URL | Descrição |
-|---|---|
-| `http://localhost:8080/swagger-ui.html` | Documentação interativa Swagger |
-| `http://localhost:8080/h2-console` | Console do banco H2 |
-| `http://localhost:8080/api-docs` | JSON do OpenAPI |
 
 ### Configuração do H2 Console
 - **JDBC URL:** `jdbc:h2:mem:meetingroom`
